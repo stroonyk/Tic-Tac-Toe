@@ -5,9 +5,52 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+    font: 14px "Century Gothic", Futura, sans-serif;
+   
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+header 
+{
+	background:gray;
+	padding:5px 0px 20px 0px;
+	font-size:2.5em;
+	text-align:center;
+	font-weight:bold;
+}
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+	cursor:pointer;
+}
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.game {
+    display: flex;
+    flex-direction: row;
+	justify-content:center;
+	margin-top:10px;
+}
+.game-info {
+    margin-left: 20px;
+}
+.game-info ol
+{
+	margin:0px;
 }
